@@ -6,24 +6,24 @@ function Footer() {
         <div className="footer">
             <div className="first">
                 <div className="about">
-                    <h3>About Us</h3>
+                    <p className="h3">About Us</p>
                     <div>
-                        <h5>Store addres:</h5>
-                        <p>903, Nguyễn Văn Linh, Châu Phú, An Giang</p>
+                        <p className="h5">Store addres:</p>
+                        <p className="content_final">903, Nguyễn Văn Linh, Châu Phú, An Giang</p>
                     </div>
                     <div>
-                        <h5>Phone Number:</h5>
-                        <p>0949-975-771</p>
+                        <p className="h5">Phone Number:</p>
+                        <p className="content_final">0949-975-771</p>
                     </div>
                     <div>
-                        <h5>Business Hours:</h5>
+                        <p className="h5">Business Hours:</p>
                         <p>Mon_Sat 10am to 6pm</p>
                         <p>Sun 11pm to 5pm</p>
                     </div>
                 </div>
                 <div className="helpbig">
                     <ul className="help">
-                        <h3>Help</h3>
+                        <p className="h3">Help</p>
                         <li>Search</li>
                         <li>Contact us</li>
                         <li>Sizing chart</li>
