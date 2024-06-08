@@ -6,19 +6,19 @@ import menu from '../asset/img/menu.svg'
 
 function Header() {
   return (
-    <div className='flex justify-between items-center p-4'>
+    <div className='header flex justify-between items-center px-[112px] py-[44px]'>
       <img src={logo} />
-      <div className='flex gap-6'>
+      <div className='flex gap-[90px]'>
         <ul className='menu'>
           <li>Trang chủ</li>
           <li>Sản phẩm</li>
           <li>Về catobox</li>
           <li>Liên hệ</li>
         </ul>
-        <div className='header-right'>
-          <img src={shop} />
-          <img src={find} />
-          <img src={menu} />
+        <div className='flex gap-9'>
+          <img src={shop} className='w-[37px] pt-2'/>
+          <img src={find} className='w-[28px]'/>
+          <img src={menu} className='w-[28px]'/>
         </div>
       </div>
     </div>

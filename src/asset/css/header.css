@@ -1,22 +1,12 @@
-/* .header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 44px 112px;
-    width: 100vw;
+.header{
+    font-size: 20px;
 }
-.header-right{
-    width: 28px;
+.header .menu{
     display: flex;
     gap: 35px;
     justify-content: space-between;
 }
-.menu{
-    display: flex;
-    gap: 35px;
-    justify-content: space-between;
-}
-.menu li{
+.header .menu li{
     list-style: none;
     font-size: 20px;
     font-weight: 600;
@@ -24,8 +14,8 @@
     text-decoration: none;
     border-bottom: 2px solid #ffffff00;    
     cursor: pointer;
-    padding: 0 0 10px 0;
+    padding: 0 0 8px 0;
 }
-.menu li:hover{
+.header .menu li:hover{
         border-bottom: 2px solid #A1A1A1;    
-} */
+}
