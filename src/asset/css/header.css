@@ -5,6 +5,7 @@
     display: flex;
     gap: 35px;
     justify-content: space-between;
+    align-items: center;
 }
 .header .menu li{
     list-style: none;

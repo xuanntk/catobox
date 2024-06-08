@@ -6,9 +6,9 @@ import menu from '../asset/img/menu.svg'
 
 function Header() {
   return (
-    <div className='header flex justify-between items-center px-[112px] py-[44px]'>
+    <div className='header flex justify-between items-center pl-[112px] py-[44px] pr-[30px]'>
       <img src={logo} />
-      <div className='flex gap-[90px]'>
+      <div className='flex gap-[70px]'>
         <ul className='menu'>
           <li>Trang chủ</li>
           <li>Sản phẩm</li>
