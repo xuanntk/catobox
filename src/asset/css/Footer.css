@@ -1,0 +1,43 @@
+.second{
+    background-color: brown;
+    width: 30%;
+    
+}
+.footer{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.first{
+    background-color: #232323;
+    width: 70%;
+    display: flex;
+    color: #F0F0F0;
+}
+.about{
+    width: 45%;
+    margin-top: 80px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.about div h5{
+    margin-bottom: 0;
+}
+.about div p{
+    margin-top: 0;
+}
+.imga {
+    margin-top: 80px;
+    width: 20%;
+    padding: 0 100px;
+}
+.imga img {
+    width: 100%;   
+}
+
+.helpbig{
+    margin-top: 80px;
+    text-align: justify;
+    width: 30%;
+    margin-left: 10%;
+}
