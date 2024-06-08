@@ -28,8 +28,8 @@
 }
 .imga {
     margin-top: 80px;
-    width: 20%;
-    padding: 0 100px;
+    width: 450px ;
+    padding: 0 80px;
 }
 .imga img {
     width: 100%;   
@@ -40,4 +40,19 @@
     text-align: justify;
     width: 30%;
     margin-left: 10%;
+}
+.h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.h5{
+    font-size: 20px;
+}
+.content_final{
+    margin-bottom: 20px;
+}
+.helpbig li{
+    list-style-type: disc; /* Dấu chấm tròn */
+ 
+  font-size: 17px; 
 }
