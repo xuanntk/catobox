@@ -16,6 +16,12 @@ function Footer() {
                 </div>
                 <div>
                 <h4>Help</h4>
+                <ul>
+                    <li>Search</li>
+                    <li>Contact us</li>
+                    <li>Sizing chart</li>
+                    <li>Join our </li>
+                </ul>
                 </div>
             </div>
 
