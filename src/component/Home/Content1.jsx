@@ -15,7 +15,7 @@ function Content1() {
          </div>
         <div className="button1">
           <p className='text-[70px]  text-[#FDF6E0] '>thoang thoảng</p>
-          <button className='border-2 border-white p-4 rounded-md py-[18px] px-[55px] ml-[25%] text-[25px] text-[#FFFFFF]'>Shop Now</button>
+          <button className='border-2 border-white p-4 rounded-md py-[18px] px-[55px] ml-[25%] text-[25px] text-[#FFFFFF]'>shop now</button>
         </div>
       </div>
       <div className='mt-[84px]'>
