@@ -10,9 +10,11 @@ function Content1() {
       <div className="content_img">
         
           <img src={img1} />
-      
+         <div className='cover_img1'>
+           
+         </div>
         <div className="button1">
-          <p className='text-[60px]  text-[#FDF6E0] '>thoang thoảng</p>
+          <p className='text-[70px]  text-[#FDF6E0] '>thoang thoảng</p>
           <button className='border-2 border-white p-4 rounded-md py-[18px] px-[55px] ml-[25%] text-[25px] text-[#FFFFFF]'>Shop Now</button>
         </div>
       </div>
@@ -20,7 +22,7 @@ function Content1() {
         <p className='text-center text-[#96351E] font-bold text-[28px] mb-[10px] mt-[0px]'>Bộ sưu tập theo chủ đề</p>
         <img className='text-center mx-auto mb-[30px]' src={line} alt="" />
       </div>
-      <p className='w-[858px] m-auto text-center'>
+      <p className='w-[858px] m-auto text-center text-[20px]'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
       </p>
     </div>
