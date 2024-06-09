@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "./../../asset/img/img_content1.jpg"
+import img1 from "./../../asset/img/content1.jpg"
 import "./../../asset/css/content1.css"
 import line from "./../../asset/img/Line3.svg"
 
@@ -8,12 +8,12 @@ function Content1() {
   return (
     <div>
       <div className="content_img">
-        <div>
+        
           <img src={img1} />
-        </div>
-        <div>
-          <p className='text-[60px] '>thoang thoảng</p>
-          <button className='border-2 rounded-md py-[18px] px-[55px] text-[25px]'>Shop Now</button>
+      
+        <div className="button1">
+          <p className='text-[60px]  text-[#FDF6E0] '>thoang thoảng</p>
+          <button className='border-2 border-white p-4 rounded-md py-[18px] px-[55px] ml-[25%] text-[25px] text-[#FFFFFF]'>Shop Now</button>
         </div>
       </div>
       <div className='mt-[84px]'>

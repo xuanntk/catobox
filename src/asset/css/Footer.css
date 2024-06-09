@@ -18,7 +18,7 @@
     width: 45%;
     margin-top: 80px;
     text-align: justify;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 .about div h5{
     margin-bottom: 0;
@@ -29,7 +29,8 @@
 .imga {
     margin-top: 80px;
     width: 450px ;
-    padding: 0 80px;
+    padding: 0 70px;
+    margin-right: 50px;
 }
 .imga img {
     width: 100%;   
@@ -38,8 +39,8 @@
 .helpbig{
     margin-top: 80px;
     text-align: justify;
-    width: 30%;
-    margin-left: 10%;
+    width: 25%;
+    margin-left: 0%;
 }
 .h3{
     font-size: 25px;

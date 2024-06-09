@@ -4,3 +4,17 @@
     object-fit: cover;
     object-position: 0 72%;
 }
+.content_img{
+    position: relative;
+    
+}
+.button1 {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+}
+.content_img div p {
+    font-family: "Judson", serif;
+  font-weight: 700;
+  font-style: normal;
+}
