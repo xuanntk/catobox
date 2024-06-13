@@ -1,22 +1,42 @@
-.header{
-    font-size: 20px;
+.header {
+  font-size: 20px;
 }
-.header .menu{
-    display: flex;
-    gap: 35px;
-    justify-content: space-between;
-    align-items: center;
+.header .menu {
+  display: flex;
+  gap: 35px;
+  justify-content: space-between;
+  align-items: center;
 }
-.header .menu li{
-    list-style: none;
-    font-size: 20px;
-    font-weight: 600;
-    color: #96351E;
-    text-decoration: none;
-    border-bottom: 2px solid #ffffff00;    
-    cursor: pointer;
-    padding: 0 0 8px 0;
+.header .menu li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #96351e;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff00;
+  cursor: pointer;
+  padding: 0 0 8px 0;
 }
-.header .menu li:hover{
-        border-bottom: 2px solid #A1A1A1;    
+.header .menu li:hover {
+  border-bottom: 2px solid #a1a1a1;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: 5vw;
+    gap: 3vw;
+  }
+  .header .menu {
+    gap: 2vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+    .header .menu {
+        gap: 1vw;
+    }
 }

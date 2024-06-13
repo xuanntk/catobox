@@ -21,7 +21,7 @@ export default function section3() {
         <img className='text-center mx-auto' src={line} alt="" />
       </div>
       <p className='text-right mt-[41px] mb-[20px]'>Xem thêm ></p>
-      <div className='flex justify-between mb-[122px] gap-[20px]'>
+      <div className='flex flex-wrap xl:justify-between justify-center mb-[122px] gap-[20px]'>
         {api.map((item, index) => (
           <div className='content3-card w-fit'>
             <img src={item.img} alt="" />
@@ -35,7 +35,6 @@ export default function section3() {
         ))
         }
       </div>
-
     </div>
   )
 }
