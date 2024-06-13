@@ -20,6 +20,9 @@
 .header .menu li:hover {
   border-bottom: 2px solid #a1a1a1;
 }
+.header .menu-mobie {
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .header {
@@ -34,9 +37,37 @@
   .header .menu {
     display: none;
   }
+  .header .menu-mobie {
+    display: block;
+    /* display: none; */
+    position: absolute;
+    background-color: #96351e;
+    color: #fdf6e0;
+    right: 0;
+    z-index: 100;
+    width: 50vw;
+    text-align: center;
+    padding: 2vh;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .header .menu-mobie a {
+    padding: 2vh;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  }
+  .header .menu-mobie a:hover {
+    opacity: 0.4;
+  }
 }
 @media screen and (max-width: 600px) {
-    .header .menu {
-        gap: 1vw;
-    }
+  .header .menu {
+    gap: 1vw;
+  }
+  .header .menu-mobie {
+    width: 100vw;
+    top: 100%;
+  }
 }
