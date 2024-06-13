@@ -7,11 +7,11 @@ import Content1 from './component/Home/Content1';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <Content1/>
       <Content3/>
-      <Footer/> */}
-   <Product_Content1/>
+      <Footer/>
+   {/* <Product_Content1/> */}
     </div>
   );
 }

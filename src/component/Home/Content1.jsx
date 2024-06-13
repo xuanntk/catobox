@@ -2,13 +2,10 @@ import React from 'react'
 import img1 from "./../../asset/img/content1.jpg"
 import "./../../asset/css/content1.css"
 import line from "./../../asset/img/Line3.svg"
-
-
 function Content1() {
   return (
     <div>
       <div className="content_img">
-
         <img src={img1} />
         <div className='cover_img1'>
         </div>
@@ -27,5 +24,4 @@ function Content1() {
     </div>
   )
 }
-
 export default Content1
