@@ -23,6 +23,13 @@
 .header .menu-mobie {
   display: none;
 }
+.menu-icon{
+  pointer-events: none;
+  cursor: pointer;
+}
+.icon-header img{
+ cursor: pointer;
+}
 
 @media screen and (max-width: 1200px) {
   .header {
@@ -39,7 +46,6 @@
   }
   .header .menu-mobie {
     display: block;
-    /* display: none; */
     position: absolute;
     background-color: #96351e;
     color: #fdf6e0;
@@ -60,6 +66,9 @@
   }
   .header .menu-mobie a:hover {
     opacity: 0.4;
+  }
+  .menu-icon{
+    pointer-events: all;
   }
 }
 @media screen and (max-width: 600px) {

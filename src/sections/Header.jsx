@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
 
-  const [isOpenMenu, setIsOpenMenu] = useState(true)
+  const [isOpenMenu, setIsOpenMenu] = useState(false)
 
   return (
     <div className='header max-sm:relative flex justify-between items-center 
@@ -20,11 +20,11 @@ function Header() {
           <li><Link>Về catobox</Link></li>
           <li><Link>Liên hệ</Link></li>
         </ul>
-        <div className='sm:relative flex gap-9 max-sm:gap-4'>
+        <div className='icon-header sm:relative flex gap-9 max-sm:gap-4'>
           <img src={shop} className='w-[37px] pt-2' />
           <img src={find} className='w-[28px]' />
-          <div className=' m-auto'>
-            <img src={menu} className='w-[28px]' onClick={()=>setIsOpenMenu(open => !open)}/>
+          <div className='m-auto'>
+            <img src={menu} className='menu-icon w-[28px] min-w-[28px]' onClick={()=>setIsOpenMenu(open => !open)}/>
             {isOpenMenu && 
             <ul className='menu-mobie'>
               <li onClick={()=>setIsOpenMenu(open => !open)} ><Link to="/">Trang chủ</Link></li>

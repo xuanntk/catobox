@@ -1,9 +1,9 @@
 import React from 'react'
-
+import History from "./History"
 export default function Product() {
   return (
-    <div>
-      product
+    <div >
+      <History/>
     </div>
   )
 }

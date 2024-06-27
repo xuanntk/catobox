@@ -1,6 +1,6 @@
 import React from 'react'
 import img1 from "./../../asset/img/content1.jpg"
-import "./../../asset/css/content1.css"
+import "./../../asset/css/Home/content1.css"
 import line from "./../../asset/img/Line3.svg"
 function Content1() {
   return (
