@@ -43,7 +43,7 @@ function Content2() {
   };
 
   return (
-    <div className='bg-[#96351E] p-[55px] my-[200px]'>
+    <div className='bg-[#96351E] p-[55px] my-[150px]'>
       <div className="slider-container">
         <Slider {...settings} >
           {
