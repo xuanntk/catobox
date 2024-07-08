@@ -9,13 +9,14 @@ function Content3() {
   ]
   return (
     <div>
-      <div className="">
-        <p>Bộ lọc</p>
-        <p>Giá</p>
-        <p>Hương Thơm</p>
+      <div className="border w-[284px] h-[470px]">
+        <p className='text-[30px] font-semibold text-[#96351E]'>Bộ lọc</p>
+        <p className='text-[22px] font-medium text-[#96351E]'>Giá</p>
+
+        <p className='text-[22px] font-medium text-[#96351E]'>Hương Thơm</p>
         {huongThom.map((huongThom, index) => {
           return (
-            <div>
+            <div className='flex gap-2'>
               <input type="checkbox" />
               <p>{huongThom}</p>
             </div>
