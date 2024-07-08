@@ -1,10 +1,14 @@
 import React from 'react'
-import History from "./History"
-import product_1 from "./Product_Content1"
+import History from "./History
+import Content2 from "./Product_Content2"
+import Content1 from "./Product_Content1"
+import Content3 from "./Content3"
 export default function Product() {
   return (
     <div >
-      <product_1/>
+      {/* <Content1/> */}
+      {/* <Content2/> */}
+      <Content3/>
       <History/>
     </div>
   )``
