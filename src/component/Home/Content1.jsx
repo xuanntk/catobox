@@ -18,8 +18,14 @@ function Content1() {
         <p className='text-center text-[#96351E] font-bold text-[28px] mb-[10px] mt-[0px]'>Bộ sưu tập theo chủ đề</p>
         <img className='text-center mx-auto mb-[30px]' src={line} alt="" />
       </div>
-      <p className='content w-[858px] m-auto text-center text-[20px] '>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+      <p className='content w-[858px] m-auto text-center text-[19px] '>
+        Catobox được ra đời với sứ mệnh mang đến những món quà ý nghĩa,
+        thay lời muốn nói từ trái tim bạn đến những người đặc biệt.
+        Hơn cả một hộp quà, Catobox là nơi bạn gửi gắm thông điệp yêu thương,
+        là cầu nối gắn kết những trái tim. Mỗi sản phẩm trong hộp quà đều được lựa chọn kỹ lưỡng,
+        đảm bảo chất lượng và phù hợp với sở thích của người nhận. Catobox không chỉ mang đến niềm vui,
+        sự bất ngờ mà còn là lời nhắn nhủ chân thành,
+        thể hiện sự quan tâm và trân trọng của bạn dành cho họ.
       </p>
     </div>
   )
