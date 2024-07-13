@@ -6,6 +6,8 @@ import "./asset/css/header.css"
 import Content1 from './component/Home/Content1';
 import Home from './component/Home/Home';
 import Product from './component/product/Product';
+import Contact from './component/Contact/Contact';
+import About from './component/About_catobox/about';
 import { Routes, Route } from 'react-router';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/About" element={<About/>}/>
       </Routes>
       <Footer />
       {/* <Product_Content1/> */}

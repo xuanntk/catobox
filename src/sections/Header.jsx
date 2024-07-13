@@ -17,8 +17,8 @@ function Header() {
         <ul className='menu'>
           <li><Link to="/">Trang chủ</Link></li>
           <li><Link to="product">Sản phẩm</Link></li>
-          <li><Link>Về catobox</Link></li>
-          <li><Link>Liên hệ</Link></li>
+          <li><Link to="About">Về catobox</Link></li>
+          <li><Link to="Contact">Liên hệ</Link></li>
         </ul>
         <div className='icon-header sm:relative flex gap-9 max-sm:gap-4'>
           <img src={shop} className='w-[37px] pt-2' />
@@ -29,8 +29,8 @@ function Header() {
             <ul className='menu-mobie'>
               <li onClick={()=>setIsOpenMenu(open => !open)} ><Link to="/">Trang chủ</Link></li>
               <li onClick={()=>setIsOpenMenu(open => !open)} ><Link to="product">Sản phẩm</Link></li>
-              <li onClick={()=>setIsOpenMenu(open => !open)} ><Link>Về catobox</Link></li>
-              <li onClick={()=>setIsOpenMenu(open => !open)} ><Link>Liên hệ</Link></li>
+              <li onClick={()=>setIsOpenMenu(open => !open)} ><Link to="About">Về catobox</Link></li>
+              <li onClick={()=>setIsOpenMenu(open => !open)} ><Link to="Contact">Liên hệ</Link></li>
             </ul>}
           </div>
         </div>
