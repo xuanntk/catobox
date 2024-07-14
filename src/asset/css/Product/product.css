@@ -1,10 +1,25 @@
-.price-input{
-    width: 100px;
-    height: 30px;
-    border: 1px solid #919191;
-    background-color: transparent;
-    padding: 5px;
-    border-radius: 3px;
-    margin-right: 10px;
-    border-radius: 0px;
+.price-input {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #919191;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 10px;
+  border-radius: 0px;
 }
+.filter-tool {
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+  height: 35px;
+  border: 1px solid #919191;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 10px;
+  border-radius: 0px;
+  font-size: 18px;
+}
+
+
