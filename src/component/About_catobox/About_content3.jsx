@@ -2,8 +2,8 @@ import React from 'react'
 import img2 from "./../../asset/img/About/img_content1.png"
 function About_content3() {
     return (
-        <div className="grid grid-cols-2">
-            <div className="w-[366px] ml-[350px] mt-[220px]">
+        <div className="grid grid-cols-2 ">
+            <div className="w-[366px] ml-[350px] mt-[220px] ">
                 <p className="text-justify mb-[50px]">
                     <p className="text-[30px] font-bold text-center mb-[30px]">Tầm Nhìn</p>
                     <p className="text-[20px]">“Catobox.” muốn mang đến cho mọi người một thương hiệu uy tín và tận tâm,
@@ -18,8 +18,8 @@ function About_content3() {
                     </p>
                 </p>
             </div>
-            <div className="">
-                <img className="w-auto h-[832px]" src={img2} />
+            <div className="w-auto">
+                <img className="w-auto h-[832px] ml-auto" src={img2} />
             </div>
         </div>
     )
