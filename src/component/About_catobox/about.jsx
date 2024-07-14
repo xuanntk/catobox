@@ -9,7 +9,7 @@ import Header from '../../sections/Header'
 
 function about() {
   return (
-    <div className="">
+    <div >
       <Header/>
       <About_content1/>
       <About_content2/>
