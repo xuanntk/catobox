@@ -6,7 +6,7 @@ function Contact_content2() {
         <div>
             <div class="container mx-auto my-[20vh]">
                 <div class="flex flex-wrap">
-                    <div class="w-[700px] m-auto text-justify mb-[6vh]">
+                    <div class="w-[700px] mx-auto text-justify mb-[6vh]">
                         <h1 class="text-[#96351E] text-2xl mb-4 pl-[120px] font-bold">Nếu bạn có thắc mắc,</h1>
                         <h1 class="text-[#96351E] text-2xl mb-4 pl-[120px] font-bold"> Hãy liên hệ với chúng tôi!</h1>
                         <p class=" px-[120px] mb-6 text-[20px]">
@@ -15,7 +15,7 @@ function Contact_content2() {
                             Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                         </p>
                     </div>
-                    <div class="w-fit m-auto">
+                    <div class="w-fit m-auto text-[18px]">
                         <div class="mb-4 ">
                             <input type="text" id="id" name="name" placeholder="Họ và tên" class="mt-1 p-2 w-full border-[#A1A1A1] border-b outline-none bg-[#FDF6E0]" />
                         </div>

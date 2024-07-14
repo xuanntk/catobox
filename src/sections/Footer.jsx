@@ -4,7 +4,7 @@ import qr from "./../asset/img/QR.png";
 function Footer() {
     return (
         <div className="footer">
-            <div className="first">
+            <div className="first max-xl:pt-5">
                 <div className="about">
                     <p className="h3">About Us</p>
                     <div>

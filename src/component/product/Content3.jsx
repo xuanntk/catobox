@@ -26,7 +26,7 @@ function Content3() {
           <option value="low">Sản phẩm mới nhất</option>
         </select>
       </div>
-      <div className='flex gap-[4vw] mt-12'>
+      <div className='flex max-lg:flex-wrap gap-[4vw] mt-12'>
         <div className="border-2 border-[#ABABAB] w-fit p-8 h-fit">
           <p className='text-[33px] font-semibold text-[#96351E] mb-6'>Bộ lọc</p>
           <p className='text-[25px] font-medium text-[#96351E] my-4'>Giá</p>
