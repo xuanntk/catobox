@@ -12,7 +12,7 @@ function About_content5() {
                     Với tinh thần học hỏi không ngừng,
                     Catobox tự tin mang đến cho khách hàng những sản phẩm độc đáo và chất lượng cao.</p>
             </div>
-            <div className="w-[337px]  text-justify ml-[750px]">
+            <div className="w-[337px]  text-justify ml-[650px]">
                 <p className="my-[60px] text-[22px]">THIẾT KẾ</p>
                 <div className="broder-[20px] w-[337px] bg-black h-[2px]"></div>
                 <p className="font-bold text-[27px] my-[20px]">Đội Ngũ Thiết Kế</p> 
@@ -21,7 +21,7 @@ function About_content5() {
                     Catobox chú trọng đến từng chi tiết nhỏ nhất trong thiết kế, từ chất liệu đến màu sắc,
                     để mang lại sự hài lòng cao nhất cho khách hàng.</p>
             </div>
-            <div className="w-[337px]  text-justify ml-[1200px] mr-[300px]">
+            <div className="w-[337px]  text-justify ml-[1000px] mr-[500px]">
                 <p className="my-[60px] text-[22px] ">CHẤT LƯỢNG</p>
                 <div className="broder-[20px] w-[337px] bg-black h-[2px] "></div>
                 <p className="font-bold text-[27px] my-[20px]">Sản Phẩm Cao Cấp</p>
