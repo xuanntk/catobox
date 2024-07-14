@@ -40,8 +40,8 @@ function Content3() {
           {huongThom.map((huongThom, index) => {
             return (
               <div className='flex gap-2'>
-                <input type="checkbox" />
-                <p>{huongThom}</p>
+                <input className="w-[15px] bg-transparent" type="checkbox" />
+                <p className='text-[17px]'>{huongThom}</p>
               </div>
             )
           })
@@ -60,6 +60,7 @@ function Content3() {
             })
             }
           </div>
+          <button className="text-[22px] italic w-[230px] h-[60px] border-2 border-[#ABABAB] block m-auto">Xem thêm</button>
         </div>
       </div>
 
